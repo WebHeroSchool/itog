@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @font-face {
 	font-family: 'Montserrat';
 	src: url('../fonts/Montserrat.eot');
@@ -15,7 +14,7 @@
 	font-style: normal;
 }
 .newcollection__title { 
-	font-family: 'montserrat_bold';
+	font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
     font-size: 80px;
@@ -27,4 +26,11 @@
     font-weight: normal;
     font-size: 15px;
     line-height: 21px;
+}
+.heading_color-black {
+	font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 41px;
 }
