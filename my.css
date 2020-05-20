@@ -1,0 +1,163 @@
+.header {
+	margin: 0;
+	padding: 0;
+
+	background: black;
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	width: 98px;
+	height: 37px;
+	left: 52px;
+	top: 36px;
+	color: white;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
+}
+
+.ru {
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	width: 31px;
+	height: 25px;
+	left: 388px;
+	top: 42px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.ru__link {
+	display: inline-block;
+	padding: 13px;
+	width: 11px;
+	height: 5.5px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.burgermenu {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 60px;
+	height: 60px;
+	background-color: #dcdcdc;
+
+}
+
+.burger {
+	width: 28px;
+	height: 5px;
+	border-radius: 30%;
+	margin: 22px 0 0 15px;
+	background-color: #000000;
+	display: block;
+}
+
+.burger::before {
+	content: '';
+	position: absolute;
+	width: 28px;
+	height: 5px;
+	border-radius: 30%;
+	margin: 10px 0 0 0;
+	background-color: #000000;
+	display: block;
+}
+
+/* конец шапки */
+/* первая секция */
+.collection {
+	display: flex;
+	height: 900px;
+	background: linear-gradient(90deg, rgb(0, 0, 0) 39%, rgba(255, 255, 255, 1) 39%);
+	margin: 0;
+	padding: 0;
+}
+
+.collection__img {
+	position: absolute;
+	width: 550px;
+	height: 550px;
+	left: 200px;
+	top: 200px;
+}
+
+/* заголовок */
+.newcollection__title {
+	position: absolute;
+	width: 390px;
+	height: 164px;
+	left: 789px;
+	top: 200px;
+
+}
+
+.newcollection__text {
+	position: absolute;
+
+	width: 390px;
+	height: 127px;
+	left: 789px;
+	top: 453px;
+}
+
+.newcollection__button {
+	position: absolute;
+	left: 790px;
+	top: 630px;
+	width: 203px;
+	height: 44px;
+	border: 1.5px solid #000000;
+	background-color: white;
+}
+
+.newcollection__link {
+	position: absolute;
+	left: 1043px;
+	top: 640px;
+	width: 250px;
+	height: 0;
+}
+
+/* иконки*/
+.collection__maus {
+	position: absolute;
+	width: 26px;
+	height: 56px;
+	left: 707px;
+	top: 825px;
+}
+
+.collection__icon {
+	display: flex;
+	align-items: flex-end;
+
+	padding-left: 30px;
+	padding-bottom: 40px;
+	line-height: 10px;
+	text-align: center;
+}
+
+img[src="fon/inst1.png"] {
+	text-align: center;
+	padding-top: 5px;
+}
+
+.icon-links__item {
+	line-height: 50px;
+	margin-left: 10px;
+	width: 42.98px;
+	height: 43px;
+	background-color: #ffffff;
+	border-radius: 100%;
+}
