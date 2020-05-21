@@ -1,3 +1,8 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
 .header .header {
 	background: black;
 	position: relative;
@@ -42,7 +47,7 @@
 
 .burgermenu {
 	position: absolute;
-	right: 0;
+	left: 1163px;
 	top: 0;
 	width: 60px;
 	height: 60px;
@@ -132,6 +137,10 @@
 	top: 835px;
 }
 
+.collection__adaptiv {
+	display: none;
+}
+
 .collection__icon {
 	display: flex;
 	align-items: flex-end;
@@ -157,14 +166,15 @@ img[src="fon/inst1.png"] {
 }
 
 /*адаптив*/
-@media screen and (min-width: 375px) and (max-width: 812px) {
+@media screen and (min-width: 375px) {
 	body {
 		margin: 0;
 		padding: 0;
 	}
 
 	.header {
-		width: 549px;
+		position: relative;
+		width: 375px;
 		height: 69px;
 		background-color: #ffffff;
 	}
@@ -186,7 +196,7 @@ img[src="fon/inst1.png"] {
 		position: absolute;
 		width: 70px;
 		height: 69px;
-		right: 0;
+		left: 305px;
 		top: 0;
 		background: #EDEDED;
 	}
@@ -211,7 +221,15 @@ img[src="fon/inst1.png"] {
 		display: block;
 	}
 
-	.newcollection {
+	.newcollection__text {
+		display: none;
+	}
+
+	.newcollection__button {
+		display: none;
+	}
+
+	.newcollection__link {
 		display: none;
 	}
 
@@ -227,10 +245,26 @@ img[src="fon/inst1.png"] {
 		display: none;
 	}
 
-	.collection {
-		background-image: url(fon/dev.png);
+	.collection__adaptiv {
+		display: block;
+		background-image: url(fon/var.png);
 		background-repeat: no-repeat;
-		width: 549px;
+		position: absolute;
+		left: 165px;
+		top: 530px;
+	}
 
+	.collection {
+		position: relative;
+		background-image: url(fon/adaptiv.png);
+		background-repeat: no-repeat;
+		min-width: 375px;
+		height: 717px;
+	}
+
+	.newcollection__title {
+		display: block;
+		left: 26px;
+		top: 380px;
 	}
 }
