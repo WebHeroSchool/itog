@@ -70,11 +70,11 @@ body {
   height: 5px;
   border-radius: 40%;
   margin: 10px 0 0 0;
-  background-color: #000000;
+  background-color: #000;
   display: block;
 }
 
-/*первая секция*/
+/* первая секция */
 
 .collection {
   display: flex;
@@ -96,7 +96,7 @@ body {
   top: 200px;
 }
 
-/*заголовок*/
+/* заголовок */
 
 .newcollection__title {
   position: absolute;
@@ -132,7 +132,7 @@ body {
   height: 0;
 }
 
-/*иконки*/
+/* иконки */
 
 .collection__maus {
   position: absolute;
@@ -169,7 +169,7 @@ img[src="fon/inst1.png"] {
   border-radius: 100%;
 }
 
-/*адаптив*/
+/* адаптив */
 
 @media screen and (min-width: 375px) {
   body {
