@@ -80,7 +80,7 @@ body {
   display: flex;
   height: 900px;
   background:
-  linear-gradient(
+    linear-gradient(
       90deg,
       rgb(0, 0, 0) 39%,
       rgba(255, 255, 255, 1) 39%
