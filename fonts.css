@@ -2,7 +2,8 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("../fonts/Montserrat.woff") format("woff"),
+  src:
+  	url("../fonts/Montserrat.woff") format("woff"),
     url("../fonts/montserrat-v14-latin_cyrillic-regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
@@ -10,14 +11,15 @@
 
 @font-face {
   font-family: "montserrat_bold";
-  src: url("../fonts/montserrat_bold.woff") format("woff"),
+  src:
+  	url("../fonts/montserrat_bold.woff") format("woff"),
     url("../fonts/montserrat-v14-latin_cyrillic-700.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 
 .newcollection__title {
-  font-family: "Montserrat";
+  font-family: Arial, sans-serif "Montserrat";
   font-style: normal;
   font-weight: bold;
   font-size: 70px;
@@ -25,7 +27,7 @@
 }
 
 .newcollection__text {
-  font-family: "Montserrat";
+  font-family: Arial, sans-serif "Montserrat";
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -33,7 +35,7 @@
 }
 
 .newcollection__button {
-  font-family: Montserrat;
+  font-family: Arial, sans-serif "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
@@ -47,7 +49,7 @@
   font-size: 13px;
   line-height: 0px;
   text-decoration: none;
-  color: #000000;
+  color: #000;
 }
 
 @media screen and (min-width: 375px) and (max-width: 812px) {
