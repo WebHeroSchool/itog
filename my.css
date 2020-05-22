@@ -15,7 +15,7 @@ body {
   left: 52px;
   top: 36px;
   color: white;
-  font-family: Arial, sans-serif "Montserrat";
+  font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -30,7 +30,7 @@ body {
   height: 25px;
   left: 388px;
   top: 42px;
-  font-family: Montserrat;
+  font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -74,8 +74,7 @@ body {
   display: block;
 }
 
-/* конец шапки */
-/* первая секция */
+/*первая секция*/
 
 .collection {
   display: flex;
@@ -97,7 +96,7 @@ body {
   top: 200px;
 }
 
-/* заголовок */
+/*заголовок*/
 
 .newcollection__title {
   position: absolute;
@@ -133,7 +132,7 @@ body {
   height: 0;
 }
 
-/* иконки*/
+/*иконки*/
 
 .collection__maus {
   position: absolute;
@@ -191,7 +190,7 @@ img[src="fon/inst1.png"] {
     left: 26px;
     top: 20px;
     color: #000;
-    font-family: Montserrat;
+    font-family: Arial, sans-serif, Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 33px;
