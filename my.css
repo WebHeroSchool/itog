@@ -81,10 +81,10 @@ body {
   height: 900px;
   background:
     linear-gradient(
-    90deg,
-    rgb(0, 0, 0) 39%,
-    rgba(255, 255, 255, 1) 39%
-  );
+          90deg,
+          rgb(0, 0, 0) 39%,
+          rgba(255, 255, 255, 1) 39%
+      );
   margin: 0;
   padding: 0;
 }
