@@ -166,7 +166,7 @@ img[src="fon/inst1.png"] {
 }
 
 /*адаптив*/
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 800px) {
 	body {
 		margin: 0;
 		padding: 0;
@@ -222,6 +222,10 @@ img[src="fon/inst1.png"] {
 	}
 
 	.newcollection__text {
+		display: none;
+	}
+
+	.ru {
 		display: none;
 	}
 
