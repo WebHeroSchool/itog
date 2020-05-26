@@ -1,280 +1,107 @@
-body {
-  margin: 0;
-  padding: 0;
+.main {
+	position: relative;
+	max-width: 1200px;
+	height: 100%;
+	
 }
-
-.header .header {
-  background: black;
-  position: relative;
-}
-
-.logo {
-  position: absolute;
-  width: 98px;
-  height: 37px;
-  left: 52px;
-  top: 36px;
-  color: white;
-  font-family: Arial, sans-serif, Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 37px;
-}
-
-.ru {
-  display: flex;
-  justify-content: space-around;
-  position: absolute;
-  width: 31px;
-  height: 25px;
-  left: 388px;
-  top: 42px;
-  font-family: Arial, sans-serif, Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-}
-
-.ru__link {
-  margin-left: 25px;
-  width: 11px;
-  height: 5.5px;
-  text-decoration: none;
-  color: #fff;
-}
-
 .burgermenu {
-  position: absolute;
-  left: 1163px;
-  top: 0;
-  width: 60px;
-  height: 60px;
-  background-color: #dcdcdc;
-}
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 70px;
+	height: 70px;
+	background-color: #e3e1e1;
 
+}
 .burger {
-  width: 28px;
-  height: 5px;
-  border-radius: 40%;
-  margin: 22px 0 0 15px;
-  background-color: #000;
-  display: block;
+	position: absolute;
+	top: 20px;
+    left: 18px;
+	width: 40px;
+    height: 4px;
+    margin-top: 5px;
+    background: #000;	
 }
-
 .burger::before {
-  content: "";
-  position: absolute;
-  width: 28px;
-  height: 5px;
-  border-radius: 40%;
-  margin: 10px 0 0 0;
-  background-color: #000;
-  display: block;
+	content: '';
+	position: absolute;
+	width: 40px;
+	top: 13px;
+	left: 0;
+	height: 5px;
+	background: #000;
 }
+.promo {
+    width: 1440px;
+    height: 900px;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(180deg, white 70%, black 30%);
+}
+.header__promo {
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.logo__promo {
+	padding-top: 20px;
+    padding-left: 20px;
+	color: #fff;
+	font-family: Arial, sans-serif, Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  
 
-/* первая секция */
-
+}
+.ru__promo {
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.ru__link {
+	text-decoration: none;
+	color: #fff;
+	font-family: Arial, sans-serif, Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
 .collection {
-  display: flex;
-  height: 900px;
-  background:
-    linear-gradient(
-      90deg,
-      rgb(0, 0, 0) 39%,
-      rgba(255, 255, 255, 1) 39%
-    );
-  margin: 0;
-  padding: 0;
+	margin: 100px;
+    display: flex;
+    justify-content: center;
 }
-
-.collection__img {
-  position: absolute;
-  width: 550px;
-  height: 550px;
-  left: 200px;
-  top: 200px;
+.newcollection {
+	display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 30px;
+    margin-left: 20px;
+    justify-content: space-between;
 }
-
-/* заголовок */
-
-.newcollection__title {
-  position: absolute;
-  width: 390px;
-  height: 164px;
-  left: 789px;
-  top: 230px;
-}
-
 .newcollection__text {
-  position: absolute;
-  width: 390px;
-  height: 127px;
-  left: 789px;
-  top: 463px;
-}
-
-.newcollection__button {
-  position: absolute;
-  left: 790px;
-  top: 630px;
-  width: 180px;
-  height: 40px;
-  border: 1.5px solid #000;
-  background-color: white;
-}
-
-.newcollection__link {
-  position: absolute;
-  left: 1003px;
-  top: 640px;
-  width: 230px;
-  height: 0;
-}
-
-/* иконки */
-
-.collection__maus {
-  position: absolute;
-  width: 26px;
-  height: 56px;
-  left: 727px;
-  top: 835px;
-}
-
-.collection__adaptiv {
-  display: none;
-}
-
-.collection__icon {
-  display: flex;
-  align-items: flex-end;
-  padding-left: 30px;
-  padding-bottom: 40px;
-  line-height: 10px;
-  text-align: center;
-}
-
-img[src="fon/inst1.png"] {
-  text-align: center;
-  padding-top: 5px;
-}
-
-.icon-links__item {
-  line-height: 50px;
-  margin-left: 10px;
-  width: 42.98px;
-  height: 43px;
-  background-color: #fff;
-  border-radius: 100%;
-}
-
-/* адаптив */
-
-@media screen and (min-width: 375px) {
-  body {
-    margin: 0;
-    padding: 0;
-  }
-
-  .header {
-    position: relative;
-    width: 375px;
-    height: 69px;
-    background-color: #fff;
-  }
-
-  .logo {
-    width: 98px;
-    height: 37px;
-    left: 26px;
-    top: 20px;
-    color: #000;
+    height: 40%;
     font-family: Arial, sans-serif, Montserrat;
     font-style: normal;
-    font-weight: 500;
-    font-size: 33px;
-    line-height: 26px;
-  }
+    font-weight: normal;
+    font-size: 43px;
+}
+.newcollection__footer {
+	width: 100%;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-  .burgermenu {
-    position: absolute;
-    width: 70px;
-    height: 69px;
-    left: 305px;
-    top: 0;
-    background: #ededed;
-  }
 
-  .burger {
-    width: 30px;
-    height: 3px;
-    border-radius: 5%;
-    margin: 28px 0 0 15px;
-    background-color: #000;
-    display: block;
-  }
-
-  .burger::before {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 3px;
-    border-radius: 5%;
-    margin: 10px 0 0 0;
-    background-color: #000;
-    display: block;
-  }
-
-  .newcollection__text {
-    display: none;
-  }
-
-  .ru {
-    display: none;
-  }
-
-  .newcollection__button {
-    display: none;
-  }
-
-  .newcollection__link {
-    display: none;
-  }
-
-  .collection__maus {
-    display: none;
-  }
-
-  .collection__icon {
-    display: none;
-  }
-
-  .collection__img {
-    display: none;
-  }
-
-  .collection__adaptiv {
-    display: block;
-    background-image: url(fon/var.png);
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 165px;
-    top: 530px;
-  }
-
-  .collection {
-    position: relative;
-    background-image: url(fon/adaptiv.png);
-    background-repeat: no-repeat;
-    min-width: 375px;
-    height: 717px;
-  }
-
-  .newcollection__title {
-    display: block;
-    left: 26px;
-    top: 380px;
-  }
+}
+.newcollection__button {
+	width: 40%;
+	height: 40px;
+	background-color: #fff;
+	border: 1.5px solid #000;
+	box-sizing: border-box;
+}
+.collection__icon {
+	display: flex;
+	align-items: flex-end;
 }

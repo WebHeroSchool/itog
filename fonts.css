@@ -22,7 +22,7 @@
   font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 70px;
+  font-size: 75px;
   line-height: 82px;
 }
 
@@ -30,8 +30,8 @@
   font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .newcollection__button {
@@ -46,18 +46,8 @@
   font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 0px;
   text-decoration: none;
   color: #000;
-}
-
-@media screen and (min-width: 375px) and (max-width: 812px) {
-  .newcollection__title {
-    font-family: Arial, sans-serif, Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 51px;
-  }
 }
