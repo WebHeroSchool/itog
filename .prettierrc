@@ -2,5 +2,3 @@
   "tabWidth": 2,
   "semi": true
 }
-
-background: -webkit-linear-gradient(180deg, white 70%, black 30%);
