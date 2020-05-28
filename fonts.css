@@ -22,16 +22,16 @@
   font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 85px;
+  font-size: 80px;
   line-height: 82px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .newcollection__text {
   font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 25px;
 }
 
@@ -47,7 +47,7 @@
   font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 0px;
   text-decoration: none;
   color: #000;
@@ -62,5 +62,6 @@
   font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 24px;
 }

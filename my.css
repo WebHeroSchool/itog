@@ -1,130 +1,168 @@
-.header {
-	position: relative;
-	height: 100px;
-	background: -webkit-linear-gradient(180deg, white 63%, black 37%);
+body {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
 }
-.burgermenu {
-	position: absolute;
-	right: 0;
-	top: 0;
-	width: 70px;
-	height: 70px;
-	background: gray;
-}
-.burger {
-	position: absolute;
-	width: 30px;
-    height: 6px;
-    margin-left: 22px;
-    margin-top: 22px;
-    background: #000;
-}
-.burger::before {
-	content: '';
-	position: absolute;
-	width: 30px;
-    height: 6px;
-    margin-left: 1px;
-    margin-top: 16px;
-    background: #000;
-}
-.header__promo {
-	width: 35%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	font-size: 25px;
-}
-.logo__promo {
-	color: #fff;
-	padding-top: 20px;
-    padding-left: 20px;
-}
-.ru__link {
-	color: #fff;
-	padding-top: 50px;
-    padding-left: 10px;
-    text-decoration: none;
-}
+
 .main {
-   
-   
+  width: 1440px;
 }
+
+.header {
+  position: relative;
+  height: 100px;
+  background: -webkit-linear-gradient(180deg, white 70%, black 30%);
+}
+
+.burgermenu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 92px;
+  height: 92px;
+  background: lightgray;
+}
+
+.burger {
+  position: absolute;
+  width: 34.7px;
+  height: 5px;
+  margin-left: 27px;
+  margin-top: 31px;
+  background: #000;
+}
+
+.burger::before {
+  content: "";
+  position: absolute;
+  width: 34.7px;
+  height: 5px;
+  margin-left: 1px;
+  margin-top: 16px;
+  background: #000;
+}
+
+.header__promo {
+  width: 28%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+}
+
+.logo__promo {
+  color: #fff;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.ru__link {
+  display: inline-block;
+  color: #fff;
+  padding-top: 40px;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
 .collection {
-	display: flex;
-	justify-content: center;
-	position: relative;
-	position: relative;
-   width: 100%;
-   height: 900px;
-   background: -webkit-linear-gradient(180deg, white 63%, black 37%);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  position: relative;
+  width: 100%;
+  height: 800px;
+  background: -webkit-linear-gradient(180deg, white 70%, black 30%);
 }
+
 .newcollection {
-	display: flex;
-	flex-direction: column;
-	width: 30%;
-	padding: 20px;
-	justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-left: 40px;
+  width: 40%;
+  height: 600px;
+  padding: 10px;
 }
+
 .newcollection__title {
-	font-family: Arial, sans-serif, Montserrat;
+  font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: bold;
-  
+  padding-top: 50px;
 }
+
 .newcollection__text {
-	font-family: Arial, sans-serif, Montserrat;
+  font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: normal;
-  height: 40%;
-  
+  height: 20%;
+  width: 84%;
+  padding-bottom: 30px;
 }
+
 .collection__left {
-	width: 60%;
-	display: flex;
-	justify-content: center;
+  width: 45%;
+  display: flex;
+  justify-content: center;
 }
+
+.collection__image-source {
+  margin-top: 50px;
+  margin-left: 110px;
+  width: 100%;
+  height: 100%;
+}
+
 .collection__img {
-	width: 70%;
-	height: 700px;
+  width: 550px;
+  height: 550px;
 }
+
 .newcollection__footer {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.newcollection__link {
+  line-height: 10px;
+}
+
 .newcollection__button {
-  width: 150px;
-  height: 50px;
+  width: 190px;
+  height: 40px;
+  background-color: #fff;
+  border: 1.5px solid #000;
 }
+
 .collection__adaptiv {
-	display: none;
+  display: none;
 }
+
 .collection__icon {
-	width: 180px;
-	position: absolute;
-	left: 40px;
-	bottom: 20px;
-	display: flex;
-	justify-content: space-around;
-
+  width: 180px;
+  position: absolute;
+  left: 40px;
+  bottom: 50px;
+  display: flex;
+  justify-content: space-around;
 }
+
 .icon-links__item {
-	width: 50px;
-	height: 50px;
-	background-color: #fff;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .collection__maus {
-	position: absolute;
-	left: 0;
-	width: 100%;
-	display: flex;
-	align-items: flex-end;
-	justify-content: center;
-
-
+  position: absolute;
+  left: 707px;
+  bottom: 60px;
+  display: flex;
+  justify-content: center;
 }
