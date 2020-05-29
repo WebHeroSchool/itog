@@ -2,6 +2,15 @@ body {
   margin: 0;
   padding: 0;
 }
+.wraper, .main {
+	max-width: 1150px;
+}
+
+@media screen and (max-width: 767px){
+	.wraper, .main {
+		max-width: none;
+	}
+}
 
 .header, .collection, {
 	z-index: 2;
@@ -16,6 +25,20 @@ body {
 	display: flex;
 	justify-content: space-between;
 }
+@media screen and (max-width: 768px) {
+	.header {
+		display: inline-block;
+		width: 100%
+		height: 69px;
+		background-color: red;
+		display: flex;
+		
+	}
+
+	.ru__promo {
+		display: none;
+	}
+}
 .wraper::before {
 	content: '';
 	position: absolute;
@@ -25,6 +48,11 @@ body {
 	height: 900px;
 	background-color: black;
 	z-index: -1;
+}
+@media screen and (max-width: 768px){
+	.wraper::before {
+		display: none;
+	}
 }
 .burgermenu {
   position: relative; 
@@ -75,7 +103,9 @@ body {
   z-index: 1;
 
 }
-
+.collection {
+	max-height: 900px;
+}
 .newcollection {
   display: flex;
   flex-direction: column;
@@ -83,9 +113,17 @@ body {
   width: 40%;
   height: 600px;
   padding: 20px;
-  
 }
-
+@media screen and (max-width: 1130px) {
+	.newcollection {
+		display: flex;
+        flex-direction: column;
+ 		 margin: 15px;
+ 		 width: 200px;
+ 		 height: 500px;
+		 padding: 20px;
+	}
+}
 .newcollection__title {
   margin: 0; 
 }
@@ -95,19 +133,41 @@ body {
   width: 84%;
   padding-bottom: 30px;
 }
-
+@media screen and (max-width: 1130px) {
+	.newcollection__text {
+       height: 20%;
+       width: 200%;
+       padding-bottom: 50px;
+	}
+}
 .collection__left {
   width: 50%;
   display: flex;
   justify-content: center;
 }
-
+@media screen and (max-width: 1130px) {
+	.collection__left {
+  width: 50%;
+  margin: 50px;
+  
+}
+}
 .collection__image-source {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 70%;
   padding-left: 100px;
+}
+@media screen and (max-width: 1130px) {
+	.collection__image-source {
+		display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  padding-left: 50px;
+  margin: 10px;
+	}
 }
 
 .collection__img {
@@ -121,7 +181,14 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
+@media screen and (max-width: 1130px) {
+	.newcollection__footer {
+	width: 200%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+}
 .newcollection__link {
   line-height: 10px;
 }
