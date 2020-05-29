@@ -1,0 +1,23 @@
+{
+  "name": "itog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretty": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebHeroSchool/itog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebHeroSchool/itog/issues"
+  },
+  "homepage": "https://github.com/WebHeroSchool/itog#readme",
+  "dependencies": {
+    "prettier": "^2.0.5"
+  }
+}
