@@ -5,17 +5,14 @@ body {
 .wraper, .main {
 	max-width: 1150px;
 }
+.wraper {
+	margin: 0 auto;
+}
 
 @media screen and (max-width: 767px){
 	.wraper, .main {
 		max-width: none;
 	}
-}
-
-.header, .collection, {
-	z-index: 2;
-	position: relative;
-	color: white;
 }
 .header {
 	position: absolute;
@@ -28,7 +25,7 @@ body {
 @media screen and (max-width: 768px) {
 	.header {
 		display: inline-block;
-		width: 100%
+		max-width: 767px;
 		height: 69px;
 		background-color: red;
 		display: flex;
@@ -72,26 +69,24 @@ body {
 }
 
 .header__promo {
-  width: 380px;
+  width: 350px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 25px;
-
+  padding-top: 40px;
+  padding-left: 30px;
 }
 
 .logo__promo {
-  color: #fff;
-  padding-top: 40px;
-  padding-left: 40px;
+  color: #fff; 
 }
 
 .ru__link {
   display: inline-block;
   color: #fff;
-  padding-top: 40px;
-  padding-left: 10px;
   text-decoration: none;
+  margin: 2px;
 }
 
 .collection {
@@ -109,10 +104,11 @@ body {
 .newcollection {
   display: flex;
   flex-direction: column;
-  margin: 30px;
+  justify-content: center;
+  margin: 0 auto;
   width: 40%;
-  height: 600px;
-  padding: 20px;
+  height: 500px;
+  
 }
 @media screen and (max-width: 1130px) {
 	.newcollection {
@@ -130,7 +126,7 @@ body {
 
 .newcollection__text {
   height: 20%;
-  width: 84%;
+  
   padding-bottom: 30px;
 }
 @media screen and (max-width: 1130px) {
@@ -138,6 +134,7 @@ body {
        height: 20%;
        width: 200%;
        padding-bottom: 50px;
+       font-size: 10px;
 	}
 }
 .collection__left {
@@ -176,7 +173,7 @@ body {
 }
 
 .newcollection__footer {
-  width: 88%;
+ 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -189,8 +186,12 @@ body {
   align-items: center;
   }
 }
+.newcollection__arrow {
+	padding-left: 7px;
+}
 .newcollection__link {
   line-height: 10px;
+
 }
 
 .newcollection__button {
@@ -203,7 +204,9 @@ body {
 .collection__adaptiv {
   display: none;
 }
-
+.collection__fon {
+	display: none;
+}
 .collection__icon {
   width: 180px;
   position: absolute;
@@ -229,4 +232,38 @@ body {
   bottom: 60px;
   display: flex;
   justify-content: center;
+}
+@media screen and (max-width: 768px) {
+	.newcollection {
+		display: none;
+	}
+	.collection__maus {
+		display: none;
+	}
+	.collection__icon {
+		display: none;
+	}
+	.collection__left {
+		display: none;
+	}
+	.collection {
+		margin: 0;
+		padding: 0;
+		background-image: url(fon/adaptiv.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 100%;
+		height: 00px;
+	}
+	.burgermenu {
+  position: relative; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  width: 70px;
+  height: 69px;
+  background: lightgray;
+}
+
 }
