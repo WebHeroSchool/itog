@@ -119,6 +119,11 @@ body {
  		 height: 500px;
 		 padding: 20px;
 	}
+	.newcollection__title {
+     margin: 0; 
+     font-size: 80px;
+     line-height: 50px;
+}
 }
 .newcollection__title {
   margin: 0; 
@@ -136,6 +141,18 @@ body {
        padding-bottom: 50px;
        font-size: 10px;
 	}
+	.collection__left {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+.collection__image-source {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-left: 0;
+}
 }
 .collection__left {
   width: 50%;
@@ -165,6 +182,10 @@ body {
   padding-left: 50px;
   margin: 10px;
 	}
+	.collection__img {
+  width: 100%;
+  height: auto;
+}
 }
 
 .collection__img {
