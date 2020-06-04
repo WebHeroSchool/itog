@@ -73,3 +73,59 @@
   font-size: 20px;
   line-height: 24px;
 }
+
+.heading {
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 40px;
+ line-height: 41px;
+}
+
+.subheading {
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 16px;
+ line-height: 16px;
+ letter-spacing: 0.07em;
+ opacity: 0.5;
+}
+.text_font_color {
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 12px;
+ line-height: 22px;
+}
+
+.price {
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 40px;
+ line-height: 56px;
+}
+.choice-product__buton {
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 15px;
+ line-height: 0px;
+}
+
+.card-basket__button_fon_color {
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 13px;
+ line-height: 0px;
+ color: #000;
+}
+.goods__text_font_small {
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 13px;
+ line-height: 16px;
+}
