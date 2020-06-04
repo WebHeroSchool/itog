@@ -111,7 +111,6 @@ body {
   padding-left: 100px;
 }
 
-
 .collection__img {
   width: 500px;
   height: 500px;
@@ -353,4 +352,5 @@ body {
     display: flex;
     justify-content: center;
   }
+  
 }
