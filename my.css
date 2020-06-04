@@ -348,9 +348,8 @@ body {
     align-self: flex-end;
   }
 
-  .collection-img__vector {
+  .collection__vector {
     display: flex;
     justify-content: center;
-  }
-  
+  } 
 }
