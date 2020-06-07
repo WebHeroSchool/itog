@@ -442,6 +442,7 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 100%;
+  border: unset;
 }
 
 /* цвета */
@@ -485,13 +486,12 @@ body {
 
 .card__basket{
  display: flex;
- left: 115px;
  width: 255px;
  height: 40px;
  align-items: center;
  justify-content: center;
 }
-.card__basket_button {
+.card__basket-button {
   width: 255px;
   height: 40px;
   border: 1.5px solid #000;
@@ -499,10 +499,9 @@ body {
   background-color: #fff;
 }
 
-
 .bagscluth__footer {
     width: 100%;
-    bottom: 50px;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
