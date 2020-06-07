@@ -427,15 +427,18 @@ body {
 }
 .card__row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding-bottom: 25px;
 }
-.card-clath-color {
-  width: 180px;
-  height: 40px;
+.card__buttons {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 150px;
+ height: 40px;
 }
-.card-clath-color__button {
+.card__button {
   width: 30px;
   height: 30px;
   border-radius: 100%;
@@ -443,28 +446,27 @@ body {
 
 /* цвета */
 
-.card-clath-color__button_color_gray {
+.card__button_color_gray {
   background-color: #dedede;
 }
-.card-clath-color__button_color_red{
+.card__button_color_red{
   background-color: #f29f9f;
 }
-.card-clath-color__button_color_blue{
+.card__button_color_blue{
   background-color: #a8bff9;
 }
-.card-clath-color__button_color_green{
+.card__button_color_green{
   background-color: #90bd8f;
 }
 
 /* Карточка цен */
 
 .card__choice {
-  position: relative;
-  width: 380px;
-  height: 45px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 .card__choice-product {
-  position: absolute;
   text-align: center;
   display: flex;
   align-items: center;
@@ -481,16 +483,15 @@ body {
   padding: 10px;
 }
 
-.card-basket{
- position: absolute;
+.card__basket{
+ display: flex;
  left: 115px;
  width: 255px;
  height: 40px;
- display: flex;
  align-items: center;
  justify-content: center;
 }
-.card-basket__button {
+.card__basket_button {
   width: 255px;
   height: 40px;
   border: 1.5px solid #000;
@@ -505,12 +506,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center; 
 }
 .bagscluth__footer_text {
   white-space: nowrap;
-}
-.bagscluth__footer_link {
-  
 }
