@@ -369,7 +369,7 @@ body {
   background-color: #fae8e4;
 }
 .bagscluth__img {
-  width: 55%;
+  width: 60%;
   height: 844px;
   
   display: flex;
@@ -379,15 +379,15 @@ body {
   position: absolute;
   display: block;
   width: 340px;
-  height: 370px;
-  padding-left: 90px;
+  height: 400px;
+  padding-left: 10px;
 
 }
 .bags-img1 {
-  position: absolute;
+  z-index: 1;
   width: 540px;
   height: 740px;
-  left: 160px;
+  padding-left: 80px;
 }
 
 .bagclach__iner {
@@ -399,7 +399,7 @@ body {
 
 }
 .card {
-  width: 350px;
+  width: 480px;
   padding: 40px 55px 45px 65px; 
   margin: 0 auto;
   top: 200px;
@@ -408,12 +408,14 @@ body {
   background-color: #fff;
   border: 1px solid #fff;
   box-shadow: 29px 30px 22px 0px rgba(0,0,0,0.07);
+  box-sizing: border-box;
 
 }
-.card__heading {
+.card__header {
   margin: 0 auto;
 }
 .card__subheading {
+  padding-top: 10px;
   margin: 0 auto;
 }
 
@@ -464,23 +466,25 @@ body {
 
 .card__choice {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
 }
-.card__choice-product {
-  text-align: center;
+.card__choice-button {
   display: flex;
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  width: 80px;
-  height: 40px;
-  left: 20px;
-  border: 1.5px solid #000000;
+  border: #fff;
+  background-color: #fff;
   box-sizing: border-box;
 }
-.card-product__buton {
+.card__choice-buttons {
+  border: 1.5px solid #000;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+}
+.card__choice-figure {
   background-color: #fff;
-  border: #fff;
   padding: 10px;
 }
 
@@ -500,12 +504,13 @@ body {
 }
 
 .bagscluth__footer {
-    width: 100%;
-    padding: 10px;
+    width: 480px;
+    height: 50px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    align-items: center; 
+    align-items: flex-end; 
 }
 .bagscluth__footer_text {
   white-space: nowrap;
