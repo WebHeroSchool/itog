@@ -70,7 +70,7 @@ body {
 .collection {
   max-height: 900px;
   position: relative;
-  padding-top: 170px;
+  padding-top: 150px;
   display: flex;
   justify-content: center;
   max-width: 1150px;
@@ -354,6 +354,12 @@ body {
 }
 
 /* Вторая секция */
+
+
+
+
+
+
 .bagscluth__content {
   display: flex;
   max-width: 1150px;
@@ -394,35 +400,27 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-
 }
 .card {
   width: 488px;
-  padding: 30px 55px 45px 55px; 
+  padding: 46px 61px 45px 55px; 
   margin: 0 auto;
-  top: 200px;
   display: flex;
   flex-flow: column;
   background-color: #fff;
   border: 1px solid #fff;
   box-shadow: 29px 30px 22px 0px rgba(0,0,0,0.07);
   box-sizing: border-box;
+}
 
-}
-.card__header {
-  padding: 15px 15px;
-  margin: 0 auto;
-}
 .card__subheading {
   margin: 0 auto;
-  padding-top: 10px;
-  
+  padding-top: 15px;
 }
 
 .card__text {
- padding-top: 15px;
- padding-bottom: 25px;
+ padding-top: 48px;
+ padding-bottom: 30px;
  margin: 0 auto;
 }
 .text {
@@ -432,13 +430,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 25px;
+  padding-bottom: 5px;
 }
 .card__buttons {
  display: flex;
  align-items: center;
  justify-content: space-between;
- width: 150px;
+ width: 165px;
  height: 40px;
 }
 .card__button {
@@ -447,7 +445,6 @@ body {
   border-radius: 100%;
   border: unset;
   padding-top: 30px;
-
 }
 
 /* цвета */
@@ -467,12 +464,15 @@ body {
 
 /* Карточка цен */
 
+.card__price {
+  margin-right: 13px;
+}
 .card__choice {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding-top: 44px;
+  padding-top: 35px;
 }
 .card__choice-button {
   display: flex;
@@ -511,7 +511,7 @@ body {
 
 .bagscluth__footer {
     width: 480px;
-    height: 50px;
+    padding-top: 30px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -521,3 +521,235 @@ body {
 .bagscluth__footer_text {
   white-space: nowrap;
 }
+.bagscluth-adaptiv {
+  display: none;
+}
+
+@media screen and (max-width: 1130px) {
+  .bagscluth {
+    max-height: 900px;
+    max-width: 1150px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #fae8e4;
+   }
+   .bagclach__iner {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+   }
+   .card {
+  width: 388px;
+  padding: 26px 15px 35px 30px;; 
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  background-color: #fff;
+  border: 1px solid #fff;
+  box-shadow: 29px 30px 22px 0px rgba(0,0,0,0.07);
+  box-sizing: border-box;
+  }
+  .card__heading {
+    font-size: 30px;
+  }
+  .card__subheading {
+  font-size: 15px;
+  padding-top: 10px;
+  }
+   .card__text {
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin: 0 auto;
+   }
+   .text {
+    font-size: 13px;
+    line-height: 20px;
+   }
+  .bagscluth__img {
+   max-width: 60%; 
+   display: flex;
+   align-items: center;
+  }
+ .bags-img {
+  display: block;
+  width: 240px;
+  height: 300px;
+  padding-left: 5px;
+  }
+ .bags-img1 {
+  z-index: 1;
+  width: 440px;
+  height: 640px;
+  padding-left: 60px;
+  }
+  .card__price-fon {
+    font-size: 30px;
+  }
+  .card__buttons {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 150px;
+ height: 30px;
+  }
+  .card__choice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 15px;
+  }
+  .card__choice-buttons {
+  border: 1.5px solid #000;
+  width: 80px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+   }
+   .card__button {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: unset;
+  padding-top: 15px;
+  }
+ .card__basket-button {
+  width: 100%;
+  height: 34px;
+  border: 1.5px solid #000;
+  box-sizing: border-box;
+  background-color: #fff;
+  }
+  .bagscluth__footer {
+    width: 100%;
+    padding-top: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-end; 
+  }
+  .bagscluth__footer_text {
+    font-size: 11px;
+  }
+  .bagscluth-adaptiv {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 815px) {
+   .bagscluth {
+    max-height: 900px;
+    max-width: 1150px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #fae8e4;
+   }
+   .bags-img {
+  display: block;
+  width: 180px;
+  height: 240px;
+  padding-left: 5px;
+  }
+   .bags-img1 {
+  z-index: 1;
+  width: 340px;
+  height: 540px;
+  padding-left: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bagscluth {
+    width: 100%;
+    max-height: 528px;
+    margin: 0 auto;
+    background-color: #fae8e4;
+    display: flex;
+    flex-direction: COLUMN-REVERSE;
+    justify-content: center;
+ 
+  }
+  .bagscluth__img {
+    display: none;
+  }
+  .bagscluth__footer {
+    display: none;
+  }
+  .bagscluth-adaptiv {
+    display: block;
+  }
+  .card {
+  width: 320px;
+  padding: 10px 10px 15px 17px;; 
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  background-color: #fff;
+  border: 1px solid #fff;
+  box-shadow: 29px 30px 22px 0px rgba(0,0,0,0.07);
+  box-sizing: border-box;
+  }
+  .card__heading {
+    font-size: 20px;
+    ine-height: 20px
+  }
+  .card__subheading {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.07em;
+  }
+  
+   .text {
+    font-size: 9px;
+    line-height: 13px;
+   }
+  .card__price-fon {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .card__buttons {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 140px;
+ height: 29px;
+  }
+  .card__choice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 15px;
+  }
+  .card__choice-buttons {
+  display: none;
+   }
+   .card__row {
+    width: 275px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+  }
+   .card__button {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  border: unset;
+  
+  }
+ .card__basket-button {
+  width: 100%;
+  height: 37px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  background-color: #fff;
+  }
+}
+    
