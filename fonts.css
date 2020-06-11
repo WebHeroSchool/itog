@@ -129,3 +129,47 @@
  font-size: 13px;
  line-height: 16px;
 }
+.total__heading_color {
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 40px;
+ line-height: 41px;
+}
+.total__subheading {
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 16px;
+ line-height: 16px;
+ letter-spacing: 0.07em;
+ opacity: 0.5;
+}
+.total__text_font {
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 15px;
+ line-height: 21px;
+}
+.total__basket-buttons {
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 12px;
+ line-height: 0px;
+}
+.sectionlock__iner-footer-text {
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 13px;
+ line-height: 16px;
+}
+.footer__text {
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 12px;
+ line-height: 15px;
+}
