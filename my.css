@@ -418,13 +418,11 @@ body {
   padding-top: 15px;
 }
 
-.card__text {
+.card__text_font_color {
  padding-top: 48px;
  padding-bottom: 30px;
  margin: 0 auto;
-}
-.text {
-  opacity: 0.5;
+ opacity: 0.5;
 }
 .card__row {
   display: flex;
@@ -518,7 +516,7 @@ body {
     justify-content: space-between;
     align-items: flex-end; 
 }
-.bagscluth__footer_text {
+.bagscluth__footer-text {
   white-space: nowrap;
 }
 
@@ -550,14 +548,14 @@ body {
   box-shadow: 29px 30px 22px 0px rgba(0,0,0,0.07);
   box-sizing: border-box;
   }
-  .card__heading {
+  .card__header_font {
     font-size: 30px;
   }
   .card__subheading {
   font-size: 15px;
   padding-top: 10px;
   }
-   .card__text {
+   .card__text_font_color {
  padding-top: 20px;
  padding-bottom: 20px;
  margin: 0 auto;
@@ -583,7 +581,7 @@ body {
   height: 640px;
   padding-left: 60px;
   }
-  .card__price-fon {
+  .card__price-font {
     font-size: 30px;
   }
   .card__buttons {
@@ -622,16 +620,19 @@ body {
   background-color: #fff;
   }
   .bagscluth__footer {
-    width: 100%;
-    padding-top: 20px;
-    
+    max-width: 388px;
+    padding-top: 20px; 
     display: flex;
     align-items: center;
     justify-content: space-between;
     align-items: flex-end; 
   }
   .bagscluth__footer_text {
-    font-size: 11px;
+    font-size: 9px;
+  }
+  .bagscluth__footer-img {
+    width: 90%;
+    margin-left: 20px;
   }
   
 }
@@ -640,22 +641,19 @@ body {
    .bagscluth {
     max-height: 900px;
     max-width: 1150px;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    background-color: #fae8e4;
+    
    }
    .bags-img {
   display: block;
-  width: 180px;
+  max-width: 45%;
   height: 240px;
   padding-left: 5px;
   }
    .bags-img1 {
   z-index: 1;
-  width: 340px;
+  width: 100%;
   height: 540px;
-  padding-left: 60px;
+  padding-left: 0;
   }
 }
 @media screen and (max-width: 768px) {
@@ -663,8 +661,6 @@ body {
     width: 100%;
     max-height: unset;
     margin: 0 auto;
-    background-color: #fae8e4;
-    display: flex; 
   }
   .bagscluth__content {
     flex-direction: column;
@@ -675,7 +671,9 @@ body {
     padding-bottom: 50px;
   }
   .bagscluth__img {
+    max-width: 100%;
    height: auto;
+   justify-content: center;
   }
   .bags-img1 {
     width: 250px;
@@ -701,7 +699,7 @@ body {
   box-shadow: 29px 30px 22px 0px rgba(0,0,0,0.07);
   box-sizing: border-box;
   }
-  .card__heading {
+  .card__header_font {
     font-size: 20px;
     ine-height: 20px
   }
@@ -717,7 +715,7 @@ body {
     font-size: 9px;
     line-height: 13px;
    }
-  .card__price-fon {
+  .card__price-font {
     font-size: 20px;
     line-height: 28px;
   }

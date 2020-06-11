@@ -74,7 +74,7 @@
   line-height: 24px;
 }
 
-.card__heading {
+.card__header_font {
  font-family: Montserrat;
  font-style: normal;
  font-weight: bold;
@@ -91,7 +91,7 @@
  letter-spacing: 0.07em;
  opacity: 0.5;
 }
-.text_font_color {
+.card__text_font_color {
  font-family: Montserrat;
  font-style: normal;
  font-weight: normal;
@@ -99,7 +99,7 @@
  line-height: 21px;
 }
 
-.card__price-fon {
+.card__price-font {
  font-family: Montserrat;
  font-style: normal;
  font-weight: bold;
@@ -122,7 +122,7 @@
  line-height: 0px;
  color: #000;
 }
-.bagscluth__footer_text_font_small {
+.bagscluth__footer-text_font_small {
  font-family: Montserrat;
  font-style: normal;
  font-weight: 500;
