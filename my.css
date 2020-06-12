@@ -767,7 +767,6 @@ body {
   padding: 0;
   position: relative;
   min-height: 900px;
-  
   background: linear-gradient(90deg, rgba(235,227,216,1) 11%,
               rgba(235,227,216,1) 16%, rgba(235,227,216,1) 22%, 
               rgba(0,0,0,1) 22%, rgba(0,0,0,1) 26%, 
@@ -789,9 +788,10 @@ body {
 .sectionlock__img-clothes {
   width: 780px;
   height: 600px;
+  box-shadow:0px 5px 18px 0px rgba(0,0,0,0.43);
 }
 .sectionlock__iner {
- width: 40%;
+ width: 42%;
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -840,7 +840,7 @@ body {
 }
 .total__basket{
  display: flex;
- width: 263px;
+ width: 283px;
  height: 44px;
  align-items: center;
  justify-content: center;
@@ -852,16 +852,150 @@ body {
   box-sizing: border-box;
   background-color: #fae8e4;
 }
-.sectionlock__iner-footer {
+.sectionlock__footer {
   display: flex;
   justify-content: flex-end;
   padding-top: 30px;
 }
-.sectionlock__iner-footer-img {
+.sectionlock__footer-img {
   padding-left: 15px;
 }
 .footer {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+@media screen and (max-width: 1130px) {
+     .sectionlock {
+    max-height: 900px;
+    max-width: 1150px;
+    position: relative;
+     }
+     .sectionlock__img-clothes {
+  width: 700px;
+  height: 640px;
+    }
+     .sectionlock__iner {
+     width: 35%;
+    }
+     .total {
+  width: 375px;
+  padding: 36px 15px 35px 45px;
+    }
+    .total__heading_color {
+      font-size: 25px;
+    }
+    .total__subheading {
+      font-size: 14px;
+    }
+    .total__text_font {
+      font-size: 13px;
+    }
+    .sectionlock__text {
+      font-size: 10px;
+    }
+  .total__choice {
+       padding-top: 10px;
+    }
+   .total__basket-buttons { 
+      height: 35px;
+      border: 1px solid #000;
+    }
+        .total__choice-buttons {
+     border: 1px solid #000;
+   width: 90px;
+   height: 33px;
+    }
+    .total__basket{
+    width: 203px;
+    }
+}
+
+@media screen and (max-width: 815px) {
+   .sectionlock__img-clothes {
+  width: 600px;
+  height: 540px;
+    } 
+}
+ @media screen and (max-width: 768px) {
+   .sectionlock {
+    width: 100%;
+    max-height: unset;
+    margin: 0 auto;
+    background: linear-gradient(90deg,
+     rgba(235,227,216,1) 11%, rgba(235,227,216,1) 16%,
+      rgba(235,227,216,1) 22%, rgba(0,0,0,1) 22%,
+       rgba(0,0,0,1) 34%, rgba(235,227,216,1) 34%);
+  }
+  .sectionlock__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sectionlock__img-clothes {
+     width: 400px;
+     height: 340px;
+     margin: 0;
+     padding: 0;
+      }
+      .sectionlock__img {
+      width: 70%;
+      height: 444px;
+      display: flex;
+      
+   }
+   .sectionlock__iner { 
+     position: relative;
+     top: -100px;
+     display: flex;
+     justify-content: center;   
+   }
+  .total {
+  width: 305px;
+  padding: 20px 10px 15px 20px;
+   }
+   .total__heading_color {
+    font-size: 20px;
+    line-height: 20px;
+   }
+   .total__subheading {
+    font-size: 10px;
+    line-height: 10px;
+   }
+   .total__text_font {
+    font-size: 9px;
+    line-height: 13px;
+    padding: 0;
+    margin: 0;
+   }
+   .total__text {
+    padding-bottom: 10px;
+    margin: 0;
+    }
+    .total__choice-buttons {
+    display: none;
+    }
+    .total__basket {
+      width: 95%;
+      padding-top: 10px;
+      font-size: 13px;
+    }
+    .sectionlock__footer {
+      width: 100%;
+      flex-direction: column;
+      
+    }
+    .sectionlock__text {
+      
+      font-size: 15px;
+      line-height: 18px;
+      display: flex;
+
+      
+    }
+   
+   .footer {
+      display: none;
+    }
 }
