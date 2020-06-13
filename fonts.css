@@ -75,7 +75,7 @@
 }
 
 .card__header_font {
-  font-family: Montserrat;
+  font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -83,7 +83,7 @@
 }
 
 .card__subheading {
-  font-family: Montserrat;
+  font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -91,8 +91,9 @@
   letter-spacing: 0.07em;
   opacity: 0.5;
 }
+
 .card__text_font_color {
-  font-family: Montserrat;
+  font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -100,14 +101,15 @@
 }
 
 .card__price-font {
-  font-family: Montserrat;
+  font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 56px;
 }
+
 .card__choice-button {
-  font-family: Montserrat;
+  font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -115,29 +117,32 @@
 }
 
 .card__basket-button_fon_color {
-  font-family: Montserrat;
+  font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 0px;
   color: #000;
 }
+
 .bagscluth__footer-text_font_small {
-  font-family: Montserrat;
+  font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
   line-height: 16px;
 }
+
 .total__heading_color {
-  font-family: Montserrat;
+  font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 41px;
 }
+
 .total__subheading {
-  font-family: Montserrat;
+  font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -145,29 +150,33 @@
   letter-spacing: 0.07em;
   opacity: 0.5;
 }
+
 .total__text_font {
-  font-family: Montserrat;
+  font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 21px;
 }
+
 .total__basket-buttons {
-  font-family: Montserrat;
+  font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 0px;
 }
+
 .sectionlock__text {
-  font-family: Montserrat;
+  font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
   line-height: 16px;
 }
+
 .footer__text {
-  font-family: Montserrat;
+  font-family: Arial, sans-serif, Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
