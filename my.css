@@ -813,13 +813,15 @@ body {
   position: relative;
   min-height: 900px;
   background:
-      linear-gradient(90deg,
+     linear-gradient(
+    90deg,
     rgba(235, 227, 216, 1) 11%,
     rgba(235, 227, 216, 1) 16%,
     rgba(235, 227, 216, 1) 22%,
     rgba(0, 0, 0, 1) 22%,
     rgba(0, 0, 0, 1) 26%,
-    rgba(235, 227, 216, 1) 26%);
+    rgba(235, 227, 216, 1) 26%
+    );
 }
 
 .sectionlock__content {
