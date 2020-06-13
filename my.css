@@ -531,7 +531,6 @@ body {
   white-space: nowrap;
 }
 
-
 @media screen and (max-width: 1130px) {
   .bagscluth {
     max-height: 900px;
@@ -547,7 +546,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
   }
 
   .card {
@@ -814,10 +812,13 @@ body {
   position: relative;
   min-height: 900px;
   background: 
-    linear-gradient(90deg, rgba(235, 227, 216, 1) 11%,
-      rgba(235, 227, 216, 1) 16%, rgba(235, 227, 216, 1) 22%,
-      rgba(0, 0, 0, 1) 22%, rgba(0, 0, 0, 1) 26%,
-      rgba(235, 227, 216, 1) 26%);
+    linear-gradient(90deg,
+    rgba(235, 227, 216, 1) 11%,
+    rgba(235, 227, 216, 1) 16%,
+    rgba(235, 227, 216, 1) 22%,
+    rgba(0, 0, 0, 1) 22%,
+    rgba(0, 0, 0, 1) 26%,
+    rgba(235, 227, 216, 1) 26%);
 }
 
 .sectionlock__content {
@@ -996,10 +997,12 @@ body {
     max-height: unset;
     margin: 0 auto;
     background: 
-    linear-gradient(90deg,
-        rgba(235, 227, 216, 1) 11%, rgba(235, 227, 216, 1) 16%,
-        rgba(235, 227, 216, 1) 22%, rgba(0, 0, 0, 1) 22%,
-        rgba(0, 0, 0, 1) 34%, rgba(235, 227, 216, 1) 34%);
+    linear-gradient(90deg, rgba(235, 227, 216, 1) 11%,
+     rgba(235, 227, 216, 1) 16%,
+     rgba(235, 227, 216, 1) 22%,
+     rgba(0, 0, 0, 1) 22%,
+     rgba(0, 0, 0, 1) 34%,
+     rgba(235, 227, 216, 1) 34%);
   }
 
   .sectionlock__content {
