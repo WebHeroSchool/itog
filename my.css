@@ -524,7 +524,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  align-items: flex-end;
+  
 }
 
 .bagscluth__footer-text {
@@ -668,7 +668,6 @@ body {
   .bagscluth {
     max-height: 900px;
     max-width: 1150px;
-
   }
 
   .bags-img {
@@ -739,7 +738,6 @@ body {
 
   .card__header_font {
     font-size: 20px;
-    ine-height: 20px;
   }
 
   .card__subheading {
@@ -812,7 +810,7 @@ body {
   position: relative;
   min-height: 900px;
   background: 
-    linear-gradient(90deg,
+     linear-gradient(90deg,
     rgba(235, 227, 216, 1) 11%,
     rgba(235, 227, 216, 1) 16%,
     rgba(235, 227, 216, 1) 22%,
@@ -997,7 +995,7 @@ body {
     max-height: unset;
     margin: 0 auto;
     background: 
-    linear-gradient(90deg, rgba(235, 227, 216, 1) 11%,
+      linear-gradient(90deg, rgba(235, 227, 216, 1) 11%,
      rgba(235, 227, 216, 1) 16%,
      rgba(235, 227, 216, 1) 22%,
      rgba(0, 0, 0, 1) 22%,
