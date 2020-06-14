@@ -827,6 +827,7 @@ body {
 .sectionlock__content {
   display: flex;
   max-width: 1150px;
+  max-height: 900px;
   width: 100%;
   margin: 0 auto;
 }
@@ -990,7 +991,7 @@ body {
   .total__choice-buttons {
     border: 1px solid #000;
     width: 90px;
-    height: 35px;
+    height: 33px;
   }
 
   .total__basket {
@@ -1003,12 +1004,16 @@ body {
     width: 600px;
     height: 540px;
   }
+
+  .total__choice-buttons {
+    height: 32px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .sectionlock {
     width: 100%;
-    max-height: unset;
+    min-height: 597px;
     margin: 0 auto;
     background:
     linear-gradient(
