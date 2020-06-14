@@ -930,7 +930,15 @@ body {
 .footer {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+}
+
+.footer__text {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer__link {
+  padding-left: 14px;
 }
 
 @media screen and (max-width: 1130px) {
@@ -982,7 +990,7 @@ body {
   .total__choice-buttons {
     border: 1px solid #000;
     width: 90px;
-    height: 33px;
+    height: 35px;
   }
 
   .total__basket {
@@ -1021,8 +1029,8 @@ body {
   }
 
   .sectionlock__img-clothes {
-    width: 400px;
-    height: 340px;
+    width: 100%;
+    height: auto;
     margin: 0;
     padding: 0;
   }
