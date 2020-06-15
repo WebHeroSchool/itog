@@ -195,7 +195,7 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    width: 400px;
+    width: 40%;
     height: 800px;
     background-color: black;
     z-index: -1;
@@ -213,7 +213,7 @@ body {
   }
 
   .header__promo {
-  width: 335px;
+  width: 34%;
   }
 
   .newcollection {
