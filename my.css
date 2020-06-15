@@ -166,10 +166,15 @@ body {
 
 .collection__maus {
   position: absolute;
-  left: 54%;
+  left: 55%;
   bottom: 60px;
   display: flex;
   justify-content: center;
+}
+
+.collection__maus1 {
+  position: absolute;
+  top: 10px;
 }
 
 @media screen and (max-width: 1130px) {
