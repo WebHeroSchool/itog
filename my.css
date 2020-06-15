@@ -22,7 +22,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  width: 450px;
+  width: 37%;
   height: 900px;
   background-color: black;
   z-index: -1;
@@ -47,7 +47,7 @@ body {
 }
 
 .header__promo {
-  width: 380px;
+  width: 30%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -215,7 +215,7 @@ body {
   }
 
   .header__promo {
-    width: 34%;
+    width: 33%;
   }
 
   .newcollection {
