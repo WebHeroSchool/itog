@@ -22,7 +22,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  width: 400px;
+  width: 450px;
   height: 900px;
   background-color: black;
   z-index: -1;
@@ -52,14 +52,18 @@ body {
   justify-content: space-between;
   align-items: center;
   font-size: 25px;
-  padding-top: 40px;
-  padding-left: 30px;
+  padding-top: 19px;
+  padding-left: 55px;
 }
 
 .logo__promo {
   color: #fff;
 }
 
+.ru__promo {
+  position: absolute;
+  left: 388px;
+}
 .ru__link {
   display: inline-block;
   color: #fff;
@@ -98,7 +102,7 @@ body {
 }
 
 .collection__left {
-  width: 50%;
+  width: 65%;
   display: flex;
   justify-content: center;
 }
@@ -112,8 +116,8 @@ body {
 }
 
 .collection__img {
-  width: 500px;
-  height: 500px;
+  width: 480px;
+  height: 490px;
 }
 
 .newcollection__footer {
@@ -146,17 +150,17 @@ body {
 }
 
 .collection__icon {
-  width: 180px;
+  width: 168px;
   position: absolute;
-  left: 40px;
-  bottom: 50px;
+  left: 9px;
+  bottom: 40px;
   display: flex;
   justify-content: space-around;
 }
 
 .icon-links__item {
-  width: 50px;
-  height: 50px;
+  width: 42px;
+  height: 42px;
   background-color: #fff;
   border-radius: 50%;
   display: flex;
@@ -166,7 +170,7 @@ body {
 
 .collection__maus {
   position: absolute;
-  left: 49%;
+  left: 54%;
   bottom: 60px;
   display: flex;
   justify-content: center;
@@ -195,7 +199,10 @@ body {
     background-color: black;
     z-index: -1;
   }
-
+  
+  .ru__promo {
+    left: 340px;
+  } 
   .burgermenu {
     position: relative;
     display: flex;
